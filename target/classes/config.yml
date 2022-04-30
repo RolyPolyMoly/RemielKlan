@@ -1,0 +1,12 @@
+#oyuncu sayısı
+max-klan-boyutu: 8
+#muttefık sayısı
+max-klan-muttefikleri: 4
+
+klan-savas-hazirlik-suresi: 200
+klan-evi:
+  aktif: true
+  bekleme-süresi:
+    aktif: true
+    #60 = 1 dakika
+    süre: 60

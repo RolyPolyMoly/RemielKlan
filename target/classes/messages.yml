@@ -1,0 +1,115 @@
+#Klan Oluşturma Mesajları
+klan-ismi-çok-kısa: "&3Klan ismi çok kısa - minimum uzunluk &63 karakterdir&3."
+klan-ismi-çok-uzun: "&3Klan ismi çok uzun - maksimum uzunluk &616 karakterdir&3."
+klan-basarıyla-kuruldu: "&3Klan &6%KLAN% &3başarıyla kuruldu!"
+klan-kurulamadı: "&3Klan kurulamadı! Bir klanda isen klan kuramazsın!"
+
+#Klan Dağıtma Mesajları
+klan-basariyla-dagitildi: "&3Klan dağıtıldı!"
+klan-dagitilamadi: "&3Klan dağıtılamadı! Klanın lideri olduğuna emin ol!"
+
+#Klan Davet Mesajları
+klan-daveti-gecersiz-oyuncu: "&3Lütfen bir oyuncu belirt!"
+klan-daveti-lider-degil: "&3Diğerlerini davet etmek için klan lideri olman gerek!"
+klan-daveti-kendine-davet: "&3Kendini davet edemezsiniz!"
+klan-davetilisi-bulunamadı: "&6%DAVETLI% &3isimli oyuncu bulunamadı, oyuncunun aktif olduğuna emin olun!"
+zaten-klanı-olan-birine-davet: "&6%DAVETLI% &3isimli oyuncu zaten bir klanda!"
+maksimum-klan-davetine-ulasildi: "&3Klan üyesi limitine ulaştın! Limit: &a%LIMIT%&3!"
+klan-daveti-basarili: "&6%DAVETLI% &3isimli oyuncuyu klanına davet ettiniz!"
+klan-daveti-basarisiz: "&6%DAVETLI% &3isimli oyuncu klana davet edilemedi, daha önceden bir davet almış olabilir!"
+klan-davetli-oyuncu-bekleme: "&6%LIDER% &3isimli oyuncu tarafından klanına davet edildin! &3Katılmak için &6/klan katıl&3 komudunu kullanın!"
+
+#Klana Katılma Mesajları
+klana-katılma-basarılı: "&6%KLAN% &3isimli klana katıldınız!"
+klana-katılma-basarısız: "&6%KLAN%&3 isimli klana katılamadınız!"
+klana-katılım-basarısız-hatalı-klan: "&3Klana katılamadın - böyle bir klan yok!"
+klana-katılım-basarısız-davet-yok: "&3Klana katılamadın - davet edilmediniz!"
+
+#Klandan Ayrılma Mesajları
+klan-lideri-ayrilamaz: "&3Klanın liderisin, klanı dağıtmak için bu komudu kullan: &6/klan dagit&3."
+klan-ayrilma-basarili: "&6%KLAN% isimli klanı terk ettiniz."
+klan-ayrilma-basarisiz: "&3Klandan ayrılma başarısız, lütfen tekrar deneyin!"
+
+#Klandan bir üyeyi atma mesajları
+klan-uyesi-atıldı: "&6%ATILMISOYUNCU% &3isimli oyuncu klandan atıldı!"
+klandan-atılan-oyuncuya-mesaj: "&6%KLAN%&3 isimli klandan atıldın!"
+secilmis-oyuncu-klanınızda-degil: "&6%ATILMISOYUNCU%&3 isimli oyuncu klanınızda değil!"
+oyuncu-bulunamadı: "&6%ATILMISOYUNCU%&3 isimli oyuncu bulunamadı!"
+atmak-icin-lider-olmanız-gerek: "&3Klanın lideri değilsiniz!"
+dogru-olmayan-at-komutu-kullanımı: "&3Tanımlanamayan komut. Lütfen şu şekilde kullanın: &6/klan at <üye>&3."
+kendinizi-atamazsınız: "&3Kendinizi klandan atamazsınız, lütfen şu komudu kullanın: &6/klan ayrıl&3."
+
+#Klan Ünvanı Mesajları
+klan-unvanı-degistirme-başarılı: "&3Klan ünvanı &6%KLANUNVAN%&3 olarak değiştirildi!"
+klan-unvanı-cok-uzun: "&3Klan ünvanı çok uzun - maksimum uzunluk &616 karakterdir&3."
+klan-unvanı-cok-kısa: "&3Klan ünvanı çok kısa - minimum uzunluk &663 karakterdir&3."
+gecersiz-unvan-adı: "&3Bu ünvan adı geçersiz. Lütfen tekrar deneyin!"
+unvanı-degistirmek-icin-lider-olman-lazım: "&3Klanın lider değilsiniz!"
+
+#Klan Listesi Mesajları
+listeleyecek-klan-yok: "&3Klan bulunamadı!\n&3Bu komudu kullanarak yeni bir tane oluşturabilirsiniz: &6/klan kur <isim>&3!"
+klan-listesi-başlığı: "&7----- &6Klan Listesi &7-----&r\n&3&lŞuanki Klanlar:&r\n"
+klan-listesi-altbilgi: "\n&7-----"
+
+#Klan Bilgisi Mesajları
+klan-bilgi-başlığı: "&7----- &6Klan Bilgisi &7-----&r\n&3İsim: %KLAN%&r\n&3Ünvan: &8(%KLANUNVAN%&r&8)&r\n&3Kazanılan Savaş Sayısı: &8[&c%KAZANILANSAVAS%&r&8]&r"
+klan-bilgi-lider-online: "\n\n&3Lider: &a%LIDER%"
+klan-bilgi-lider-offline: "\n\n&3Lider: &c%LIDER%&7&o(offline)"
+klan-bilgi-üyeler-başlık: "\n\n&3Üyeler:"
+klan-bilgi-üyeler-online: "\n&a%UYE%\n"
+klan-bilgi-üyeler-offline: "\n&c%UYE%&7&o(offline)\n"
+klan-bilgi-muttefikler-başlık: "\n\n&3Müttefikler:"
+klan-muttefik-uyeleri: "\n&a%MUTTEFIKKLAN%\n"
+klan-evi-ayarlı: "\n\n&3Klan evi: &a&oAYARLI"
+klan-evi-belirlenmemis: "\n\n&3Klan Evi: &c&oBELİRLENMEMİŞ"
+klan-bilgi-altbilgi: "\n&7-----"
+bir-klanda-degil: "&3Bir klanda değilsiniz!"
+
+#Klan Müttefik Mesajları
+klan-muttefıklere-eklendı: "&6%MUTTEFIKKLAN% &3 isimli klanı başarıyla müttefiklerinize eklediniz!"
+klan-diger-muttefıklere-eklendi: "&6%LIDER% isimli oyuncu sizi müttefiklerine ekledi!"
+muttefıklere-ekleme-basarisiz: "&6%MUTTEFIKKLANSAHIBI%&3 isimli oyuncunun klanına müttefiklere ekleme başarısız! Lider aktif mi değil mi kontrol edin!"
+oyuncu-klan-lideri-degil: "&6%MUTTEFIKKLANSAHIBI%&3 klan lideri değil!"
+klan-muttefıklerden-silindi: "&6%MUTTEFIKKLAN% &3isimli klan müttefiklerden silindi!"
+klan-diger-muttefıklerden-silindi: "&6%MUTTEFIKKLANSAHIBI% &3isimli oyuncu sizi müttefiklerinden sildi!"
+klan-muttefıklerden-silinemedi: "&6%MUTTEFIKKLAN%&3 müttefiklerden silinemedi! Müttefik olduğunuza emin olunuz!"
+muttefık-klan-lideri-offline: "&6%MUTTEFIKKLANSAHIBI%&3 isimli klan liderini müttefiklere ekleme başarısız! Aktif olduğuna emin olun!"
+muttefık-klan-sil-lider-offline: "&6%MUTTEFIKKLANSAHIBI%&3 isimli klan liderini müttefiklerden silme başarısız! Aktif olduğuna emin olun!"
+dogru-olmayan-muttefık-komudu-kullanimi: "&3Tanımlanamayan komut! Doğru kullanım: &6/klan muttefık [ekle|sil] <klan-lideri>&3."
+kendi-klanina-muttefık-olamazsin: "&3Kendi klanına müttefik olamazsın!"
+klan-muttefık-limitime-ulasıldı: "&3Klan müttefiği limitine ulaştın! Limit: &a%LIMIT%&3!"
+
+#Klan ev ayarlama mesajları
+klan-evi-basariyla-ayarlandi: "&3Ev şuanki konuma &abaşarıyla ayarlandı!"
+bekleme-süresi-bekleme: "&3Üzgünüz ama bir sonrakı ışınlanmanı &6%KALANZAMAN%&r &3saniye sonra yapabilirsin."
+basarıyla-eve-ısınlanıldı: "&3Klan evine ışınlandın!."
+ev-ayarlanmamis: "&3Klanının bir evi yok!"
+ısınlama-basarisiz-bir-klanda-degil: "&3Bu komudu kullanmak için bir klanda olmalısın! İlk olarak &6/klan komudunu &3kullan."
+
+#Klan Savaş Mesajları
+klan-savas-daveti-gecersiz-lider: "&3Lütfen geçerli bir lider belirt!"
+klan-savas-lider-degil: "&3Diğer liderlere karşı savaş başlatmak için lider olman gerek!"
+klan-savas-kendine-davet: "&3Kendinde karşı savaş başlatamazsın!"
+klan-savas-davetlisi-bulunamadı: "&6%DAVETLI% &3isimli oyuncu bulunamadı, oyuncunun aktif olduğuna emin olun!"
+klan-savas-daveti-bitti: "&3Tüm savaş davetlerinin süresi doldu!"
+klan-savas-daveti-başarılı: "&3Savaş daveti &abaşarıyla gönderildi!"
+klan-savas-davetli-lider-bekleme:  "&6%LIDER% &3isimli oyuncu tarafından savaşa davet edildin! &3Savaşa katılmak için &6/klan savas kabulet&3 komudunu kullanın!"
+klan-savas-daveti-başarısız: "&6%DAVETLI% &3isimli oyuncu savaşa davet edilemedi, daha önceden bir savaş daveti almış olabilir!"
+savas-davet-kabul: "&CSavaş daveti kabul edildi! &e15 dakika sonra savaş başlayacak! Hazırlanın!"
+savas-davet-bulunamadi: "&3Her hangi bir savaş daveti almamışsınız!"
+dogru-olmayan-savas-komutu-kullanımı: "&3Tanımlanamayan komut. Lütfen şu şekilde kullanın: &6/klan savas [başlat|kabulet] <klan-lideri>&3."
+
+#Genel Eklenti Mesajları
+klandasa-vuramazsin: "&cKendi klanındaki birine hasar veremezsin!"
+klan-lideri-olmanız-gerek: "&3Bunu yapabilmek için klan lideri olman gerek!"
+özellik-devredışı: "&3Üzgünüz, bu özellik devre dışı."
+eklenti-yenileme-başarılı: "&6RemielKlan: &aTüm yapılandırmalar yenilendi!"
+dogru-olmayan-komut-kullanımı: "&3Tanımlanamayan komut! Lütfen bilgi için &6/klan&3 komudunu kullanın."
+sadece-oyuncu: "&4Üzgünüz, bu komut sadece bir oyuncu tarafından çalıştırılabilir!"
+klan-kaydetme-başlat: "&6RemielKlan: &aKlan verileri kaydediliyor..."
+kaydetme-tamamlandı: "&6RemielKlan: &aKlan verileri kaydedildi!"
+otomatik-kayit-aktif: "&6RemielKlan: &aOtomatik kaydetme başlatıldı!"
+otomatik-kayit-tamamlandı: "&6RemielKlan: &aTüm klanlar dosyaya kaydedildi!"
+otomatik-kayit-başarısız: "&6RemielKlan: &4Klanları dosyaya kaydetme başarısız!"
+klan-kaydetme-hatası-1: "&6RemielKlan: &4Klanları dosyaya kaydetme başarısız!"
+klan-kaydetme-hatası-2: "&6RemielKlan: &4Hatalar için konsolu kontrol edin!"

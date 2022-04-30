@@ -1,0 +1,27 @@
+name: RemielKlan
+version: '${project.version}'
+main: xyz.gamlin.clans.Clans
+api-version: 1.13
+prefix: RemielKlan
+authors: [Taylan]
+description: Basit bir klan eklentisi.
+softdepend: [PlaceholderAPI]
+commands:
+  klan:
+    description: Klan kurun ve yönetin!
+    usage: "Kullanım: /klan [kur|dagit|davet|at|bilgi|liste|unvan|muttefık]"
+    permission: remielklan.klan
+    aliases:
+      - klanlar
+      - k
+  klanadmin:
+    description: Admin commands for clans
+    usage: "Kullanım: /klanadmin [kaydet|reload]"
+    permission: remielklan.admin
+    aliases:
+      - ka
+permissions:
+  remielklan.klan:
+    default: true
+  remielklan.klanadmin:
+    default: op

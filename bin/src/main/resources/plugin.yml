@@ -1,0 +1,28 @@
+name: ClansLite
+version: '${project.version}'
+main: xyz.gamlin.clans.Clans
+api-version: 1.13
+prefix: ClansLite
+authors: [ Gamlin, Loving11ish ]
+description: A simple clans plugin for Minecraft.
+website: https://gamlin.xyz
+softdepend: [PlaceholderAPI]
+commands:
+  clan:
+    description: Create, delete and manage clans!
+    usage: "Usage: /clan [created|disband|invite|kick|info|list|prefix|ally]"
+    permission: clanslite.clan
+    aliases:
+      - clans
+      - c
+  clanadmin:
+    description: Admin commands for clans
+    usage: "Usage: /clanadmin [save|reload]"
+    permission: clanslite.admin
+    aliases:
+      - ca
+permissions:
+  clanslite.clan:
+    default: true
+  clanslite.clanadmin:
+    default: op
